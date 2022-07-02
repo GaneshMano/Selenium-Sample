@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Include">
+  <test thread-count="5" name="SingleTestCase">
+    <classes>
+      <class name="sample.SampleTestSuiteFile">
+      <methods>
+      <include name="test1"></include>
+      </methods>
+      </class>
+      <!-- <class name="sample.SampleTestSuiteFile2"> -->
+      </classes>
+  </test> <!-- SingleTestCase -->
+</suite> <!-- Include -->
